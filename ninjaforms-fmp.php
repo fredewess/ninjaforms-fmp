@@ -27,11 +27,11 @@ function ninja_forms_processing_callback( $form_data ){
     $form_title    = $form_data[ 'settings' ][ 'title' ];
     
     // your filemaker host settings
-    $host = 'yourserver.com'; // your server hostname
+    $host = 'https://filemaker.compagnie-fredewess.de'; // your server hostname
 	$dbname = 'Webhook'; // your database name
 	$layout = 'Webhook'; // your layout name
-	$user = 'Webhook'; // your username
-	$pass = 'Webhook'; // your password 
+	$user = 'Hans Fredeweß'; // your username
+	$pass = 'abcHF'; // your password 
 	$script = 'Process Webhook'; // your script name
 	
 	// convert form data to nvp
